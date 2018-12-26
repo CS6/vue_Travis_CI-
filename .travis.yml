@@ -7,7 +7,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: 552cab6c7e33bd839cd243caa771150fb2fc2806
+  github-token: fdb9b9415916c45bd717855d7958e0a6bc7e55f0
   keep-history: true
   local-dir: ./dist
   on:
