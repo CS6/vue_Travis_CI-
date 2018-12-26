@@ -1,4 +1,14 @@
 language: node_js
-rvm:
- - 2.2
- - jruby
+node_js: node
+install:
+  - npm install
+script:
+  - npm run build
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  local-dir: ./dist
+  on:
+    branch: master
