@@ -1,3 +1,3 @@
 module.exports = {
-    baseUrl: "/CICD/"
+    baseUrl: "/vue_Travis_CI-/"
   };
