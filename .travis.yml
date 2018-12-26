@@ -8,7 +8,6 @@ install:
   - yarn
 script:
   - yarn build
-  - rm -rf/
 deploy:
   provider: pages
   skip-cleanup: true
